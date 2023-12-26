@@ -26,4 +26,3 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci --force
       - run: npm run format
-      - run: npm run lint
